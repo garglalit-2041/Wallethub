@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="WalletHubAssignment" verbose="1">
+
+	<test name="For Facebook">
+		<classes>
+			<class name="tests.Facebooklogin"/>
+		</classes>
+	</test>
+	<test name="For Wallethub">
+		<classes>
+			<class name="tests.WalletHubReview"/>
+		</classes>
+	</test>
+</suite> <!-- Suite -->
